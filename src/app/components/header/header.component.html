@@ -1,0 +1,16 @@
+<header>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand">
+            <div class="navbar-brand align-item-center d-flex">
+                <img src="/assets/images/logo-removebg-preview.png" width="200" height="70" alt="">
+                <div class="form-inline">
+                    <input type="text" class="form-control" placeholder="Pesquisar"><span class="fas fa-search search-icon"></span>
+                </div>
+                <button routerLink="/cart" class="btn btn-primary" style="background-color: pink; border-color: pink">
+                    <i routerLink="/cart" class="fas fa-cart-plus" style="color: black;"></i> 
+                    <div class="badge">{{totalItemNumber}}</div>
+                </button>
+            </div>
+        </a>
+    </nav>
+</header>
